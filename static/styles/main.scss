@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(rgb(101, 129, 126), rgb(62, 161, 144));
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login{
+    background-color: rgb(219, 219, 219);
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+    &__title {
+        margin: 0px 0px 20px 0px;
+    }
+
+    &__button {
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+
+        &:hover{
+            background-color: cadetblue;
+        }
+    }
+}
+
+.student {
+    background-color: rgb(219, 219, 219);
+    padding: 50px;
+    border-radius: 20px;
+    display: none;
+
+    &__name {
+        margin: 0px 0px 20px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__syllaby {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__subjects {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    &__single-subject{
+        margin: 0px;
+        padding: 0px;
+        list-style: circle;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__validate {
+        margin: 5px 0px 5px 40px;
+        border: none;
+    }
+}
